@@ -1,0 +1,9 @@
+mensajes1=[s for s in usuarioPedro.mensajes if not s.__contains__("@")]
+mensajes2=[s for s in usuarioJuan.mensajes if not s.__contains__("@")]
+mensajes3=[s for s in usuarioMaria.mensajes if not s.__contains__("@")]
+print("Tweets de Pedro que no arroban a nadie")
+print(mensajes1)
+print("Tweets de Juan que no arroban a nadie")
+print(mensajes2)
+print("Tweets de Maria que no arroban a nadie")
+print(mensajes3)
